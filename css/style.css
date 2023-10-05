@@ -1,0 +1,141 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+display: flex;
+align-items:center;
+justify-content: space-between;
+background-color: black;
+color: white;
+padding: 12px 12px;
+}
+.logo img{
+    width: 30px;
+    filter: invert(1);
+ 
+}
+main{
+min-height: 88.5vh;
+}
+.container{
+    max-width: 80wh;
+    margin: auto;
+    padding: 15px;
+}
+ul{
+    display: flex;
+}
+ul li { 
+    list-style: none;
+    padding: 0 13px;
+    font-size: 13px ;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul>li>a:hover{
+    color: aqua;
+}
+footer{
+    background: black ;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+input[type='text']{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+    
+}
+
+.btn{
+    background: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#resultCont div::first-letter{
+    text-transform: uppercase;
+    }
+@media only screen and (max-width:600px)
+{
+body{
+    background-color: #fff;
+}
+
+
+.container{
+    font-size: 12px;
+}
+   
+   /* nav{
+        flex-direction: none;
+    }
+    .logo{
+        padding: 6px 0;
+    }*/
+
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*h1 {
+    font-size: 2.5rem;
+}*/
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.highlight {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+}
+#ph {
+    text-align: center;
+     background-color: black; 
+     color: white ;
+}
